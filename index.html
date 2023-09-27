@@ -263,72 +263,8 @@
         })();
     </script>
   
-    <head>
-    <meta charset="UTF-8">
-    <title>alert弹窗</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        .box {
-            display: none;
-            margin: 100px;
-            width: 396px;
-            height: 180px;
-            border:1px solid #EEE;
-            border-radius: 10px;
-        }
-        .title {
-            height: 40px;
-            padding-left: 20px;
-            font-size: 18px;
-            font-weight: bold;
-            line-height: 40px;
-            background: #0052d9;
-            border-radius: 10px 10px 0 0;
-            color: #FFF;
-        }
-        .body {
-            height: 100px;
-            background: url(./bg.gif) repeat;
-            text-align: center;
-            color: #FFF;
-            line-height: 100px;
-        }
-        .bottom {
-            height: 40px;
-            text-align: center;
-        }
-        .bottom span {
-            margin-top: 5px;
-            display: inline-block;
-            width: 100px;
-            height: 30px;
-            border-radius: 10px;
-            text-align: center;
-            line-height: 30px;
-        }
-    </style>
-</head>
-<body>
-    <div class="box">
-        <p class="title">标题</p>
-        <div class="body">这里是一个弹窗</div>
-        <div class="bottom">
-            <span onclick="hideAlert()">确定</span>
-        </div>
-    </div>
     <script>
-        let alertBox = document.querySelector('.box');
-        function alert() {
-            alertBox.style.display = 'block';
-        }
-        alert();
-  
-        function hideAlert() {
-            alertBox.style.display = 'none';
-        }
+        alert('更新版本号为-ax 1.0.1(爱湘 1.0.1)');
     </script>
 
 </body>
