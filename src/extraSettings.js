@@ -41,5 +41,5 @@ let adLink = false;
 document.getElementsByTagName("title")[0].innerText = '嚣张的李老师 -ax1.0.1';
 
 // 开启选分弹窗：将 false 改为 true
-let selectModal = true;
+let selectModal = false;
 
