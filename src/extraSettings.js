@@ -6,7 +6,7 @@
 let extraScore = 1;
 
 // 无敌模式：true 改为 false
-let wuDi = true;
+let wuDi = false;
 
 // 第一个水果：修改数字为 0-10, 0 为葡萄，9 为半个西瓜
 let firstFruit = 0;
@@ -26,10 +26,10 @@ let setFruits = {
 }
 
 // 让水果更 Q 弹：false 改为大于 0 小于 1 的任意小数（推荐 0.9）
-let fruitQTan = false;
+let fruitQTan = 0.9;
 
 // 让水果下落缓慢：false 改为大于 0 的任意数，值越大阻力越大，下落越慢（推荐 5）
-let fruitSlowDown = false;
+let fruitSlowDown = 5;
 
 // 点击右上方图标更换水果：false 改为 true 即可
 let clickChangeFruit = true;
@@ -38,7 +38,7 @@ let clickChangeFruit = true;
 let adLink = false;
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '嚣张的李老师 -ax1.0.1';
+document.getElementsByTagName("title")[0].innerText = '嚣张的李老师 -ax1.0.2';
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;
